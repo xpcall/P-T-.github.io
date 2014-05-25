@@ -1,3 +1,6 @@
 body {
+	margin:0 0 0 0;
+	color:#2269c7;
 	background-image:url("res/bg.png");
+	text-align:center;
 }

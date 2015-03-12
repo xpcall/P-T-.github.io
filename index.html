@@ -1,14 +1,113 @@
-<!--
-	My crappy HTML
--->
 <html>
 	<head>
 		<title>PixelToast</title>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<link rel="icon" type="image/ico" href="favicon.ico"/>
+		<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
 	</head>
 	<body>
-		<script src="http://www.dogets.com/widget/dogets.js"></script>
+		<div id="main">
+			<div id="logo">
+				<img src="logo.png"/>
+			</div>
+			<div id="links">
+				<a href="http://www.computercraft.info/forums2/index.php?/user/1559-pixeltoast/">
+					ComputerCraft
+				</a>-
+				<a href="http://oc.cil.li/index.php?/user/113-pixeltoast/">
+					OpenComputers
+				</a>-
+				<a href="https://github.com/PixelToast">
+					GitHub
+				</a>-
+				<a href="https://www.youtube.com/user/TheGyroid">
+					YouTube
+				</a>-
+				<a href="http://steamcommunity.com/id/TrollGabe/">
+					Steam
+				</a>-
+				<a href="http://pixeltoast.imgur.com/">
+					Imgur
+				</a>-
+				<a href="http://www.vexforum.com/member.php?u=824030">
+					Vex forum
+				</a>-
+				<a href="http://webchat.esper.net/?channels=#pixel">
+					IRC
+				</a>
+			</div>
+			<div id="projects">
+				Projects
+				
+				<div class="projectTitle">
+					<a href="https://github.com/HeroesAliance/skyrise-app">Skyrise app</a>
+				</div>
+				<div class="project">
+					A Vex Skyrise scoring app for android in Love2d<br>
+					Language: Lua
+				</div>
+				
+				<div class="projectTitle">
+					<a href="https://github.com/P-T-/webserver">Webserver</a>
+				</div>
+				<div class="project">
+					A verry fast scriptable webserver with post/get support, file buffering and more<br>
+					Language: Lua / C
+				</div>
+				
+				<div class="projectTitle">
+					<a href="https://github.com/PixelToast/4540D">4540D (skyrise)</a>
+				</div>
+				<div class="project">
+					2014-2015 code for VRC team 4540D, has advanced auton selection and shaft encoder functions<br>
+					Language: RobotC
+				</div>
+				
+				<div class="projectTitle">
+					<a href="https://github.com/P-T-/less-fail-lua-ircd">IRC server</a>
+				</div>
+				<div class="project">
+					An incomplete irc server, has basic channel joining and opping<br>
+					Language: Lua
+				</div>
+				
+				<div class="projectTitle">
+					<a href="https://github.com/P-T-/-v4">^v4</a>
+				</div>
+				<div class="project">
+					An IRC bot with many plugins<br>
+					Language: Lua / C
+				</div>
+				
+				<div class="projectTitle">
+					<a href="https://github.com/OpenPrograms/TCPNet">TCPNet</a>
+				</div>
+				<div class="project">
+					Long range communication over sockets for OpenComputers<br>
+					Language: Lua
+				</div>
+				
+				<div class="projectTitle">
+					<a href="https://github.com/OpenPrograms/Pixel-Programs">Pixel Programs</a>
+				</div>
+				<div class="project">
+					Various OpenComputers programs<br>
+					Language: Lua
+				</div>
+				
+				<div class="projectTitle">
+					<a href="https://github.com/P-T-/vfs">Virtual filesystem</a>
+				</div>
+				<div class="project">
+					Allows mounting virtual folders in ComputerCraft<br>
+					Language: Lua
+				</div>
+				
+			</div>
+			<div id="copyright">
+				Copyright (c) 2015
+			</div>
+		</div>
+		<script src="http://www.dogets.com/widget/dogets.js" type="text/javascript"></script>
 		<div id="doge"><script>
 			DogetsCom.go({
 				wallet_address: "DUSsEh6r66epDr2P5GtLKP7anDWBEVssSK",
@@ -23,33 +122,5 @@
 				lbl_amount: "Doge"
 			});
 		</script></div>
-		<div id="logo">
-			<img src="res/logo.png"/><br/>
-			<a href="http://oc.cil.li/index.php?/user/113-pixeltoast/"><img src="res/oc.png"/></a>&nbsp;&nbsp;&nbsp;
-			<a href="http://www.computercraft.info/forums2/index.php?/user/1559-pixeltoast/"><img src="res/cc.png"/></a>&nbsp;&nbsp;&nbsp;
-			<a href="https://github.com/PixelToast"><img src="res/github.png"/></a>&nbsp;&nbsp;&nbsp;
-			<a href="https://www.youtube.com/user/TheGyroid"><img src="res/youtube.png"/></a>&nbsp;&nbsp;&nbsp;
-			<a href="http://steamcommunity.com/id/TrollGabe/"><img src="res/steam.png"/></a><br><br><br>
-		</div>
-		<div id="main">
-			My projects:<br/>
-				<div id="programs">
-					<a href="https://github.com/P-T-/webserver">webserver</a><br/>
-					Webserver written in lua and C, verry fast but needs more RFC<br/><br/>
-					<a href="https://github.com/infinikiller64/4540D">4540D</a><br/>
-					2014-2015 code for VRC team 4540D, has auton selection and almost perfect shaft encoder functions<br/><br/>
-					<a href="https://github.com/P-T-/less-fail-lua-ircd">Lua IRC server</a><br/>
-					IRC server written in lua, is misssing some commands and proper channel modes<br/><br/>
-					<a href="https://github.com/P-T-/-v4">^v4</a><br/>
-					Lua IRC bot with a ton of plugins, currently on EsperNet #oc<br/><br/>
-					<a href="https://github.com/OpenPrograms/TCPNet">TCPNet</a><br/>
-					Long range communication in OpenComputers using sockets<br/><br/>
-					<a href="https://github.com/OpenPrograms/Pixel-Programs">PixelPrograms</a><br/>
-					Various OpenComputers programs including: OCI, Mandlebrot, b64, 2048, and holograms<br/><br/>
-					<a href="https://github.com/P-T-/vfs">Virtual filesystem</a><br/>
-					Virtual filesystem for ComputerCraft, allows mounting tables as folders and some other hacks<br/><br/>
-				</div>
-			</table>
-		</div>
 	</body>
 </html>
